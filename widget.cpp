@@ -104,6 +104,7 @@ void Widget::on_pushButton_clicked()
 {
     ++count;
     glViewport(0, 0, width, height);
+    // Clearing the triangle
     glClear(GL_COLOR_BUFFER_BIT);
     int index = 5 - (count % 5);
     glColor3f(0.2f * index, 0.0f, 0.0f);
