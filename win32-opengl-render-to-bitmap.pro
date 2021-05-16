@@ -24,10 +24,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        widget.cpp
+    gldisplayoffscreen.cpp \
+    widget.cpp
 
 
-HEADERS  += widget.h
+HEADERS  += widget.h \
+    gldisplayoffscreen.h
 
 FORMS    += widget.ui
 
